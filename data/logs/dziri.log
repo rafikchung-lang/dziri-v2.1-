@@ -1,0 +1,396 @@
+[2026-10-02T14:59:29.746Z] [INFO] [Startup] Node.js version: v22.23.3
+[2026-10-02T14:59:29.748Z] [INFO] [Startup] Loading configuration...
+[2026-10-02T14:59:29.749Z] [INFO] [Startup] Initializing storage...
+[2026-10-02T14:59:29.753Z] [INFO] [Startup] Loading commands...
+[2026-10-02T14:59:31.493Z] [INFO] [Commands] Loaded 15 command(s).
+[2026-10-02T14:59:31.611Z] [INFO] [Startup] Loading events...
+[2026-10-02T14:59:31.632Z] [INFO] [Events] Registered 11 event handler(s).
+[2026-10-02T14:59:31.632Z] [INFO] [Startup] Starting ticket bot...
+[2026-10-02T14:59:31.635Z] [WARN] [Tickets] TICKET_DISCORD_TOKEN is not set — the Ticket Bot is disabled. The main bot and dashboard keep running, and panels can still be sent by Dziri System.
+[2026-10-02T14:59:31.636Z] [INFO] [Startup] Starting dashboard...
+[2026-10-02T14:59:31.923Z] [WARN] [Dashboard] SESSION_SECRET not set — using a random one (sessions reset on restart).
+[2026-10-02T14:59:31.924Z] [WARN] [Dashboard] No login method configured. Set CLIENT_ID + CLIENT_SECRET (Discord login) or DASHBOARD_PASSWORD in .env.
+[2026-10-02T14:59:31.924Z] [WARN] [Startup] DISCORD_TOKEN is not set — dashboard is running but the bot is offline. Add it to .env and restart.
+[2026-10-02T14:59:31.950Z] [INFO] [Dashboard] Running on port 11291
+[2026-10-02T15:01:29.324Z] [INFO] [Startup] Node.js version: v22.23.3
+[2026-10-02T15:01:29.326Z] [INFO] [Startup] Loading configuration...
+[2026-10-02T15:01:29.327Z] [INFO] [Startup] Initializing storage...
+[2026-10-02T15:01:29.330Z] [INFO] [Startup] Loading commands...
+[2026-10-02T15:01:31.037Z] [INFO] [Commands] Loaded 15 command(s).
+[2026-10-02T15:01:31.138Z] [INFO] [Startup] Loading events...
+[2026-10-02T15:01:31.164Z] [INFO] [Events] Registered 11 event handler(s).
+[2026-10-02T15:01:31.165Z] [INFO] [Startup] Starting ticket bot...
+[2026-10-02T15:01:31.173Z] [INFO] [Tickets] Connecting Ticket Bot to Discord...
+[2026-10-02T15:01:31.184Z] [INFO] [Startup] Starting dashboard...
+[2026-10-02T15:01:31.477Z] [INFO] [Startup] Connecting to Discord...
+[2026-10-02T15:01:31.492Z] [INFO] [Dashboard] Running on port 11291
+[2026-10-02T15:01:32.676Z] [INFO] [Discord] Connected as Dziri#4124 — 1 guild(s).
+[2026-10-02T15:01:32.902Z] [INFO] [Tickets] Ticket Bot connected as tickets.#5235 — 1 guild(s).
+[2026-10-02T15:01:32.961Z] [ERROR] [Commands] Slash registration failed: Invalid Form Body
+6.options[1][APPLICATION_COMMAND_OPTIONS_REQUIRED_INVALID]: Required options must be placed before non-required options
+6.options[2][APPLICATION_COMMAND_OPTIONS_REQUIRED_INVALID]: Required options must be placed before non-required options
+[2026-10-02T15:01:32.963Z] [INFO] [Startup] Dziri System is ready.
+[2026-10-03T15:38:18.048Z] [WARN] [Commands] Failed to respond: Invalid Form Body
+message_reference[MESSAGE_REFERENCE_UNKNOWN_MESSAGE]: Unknown message
+[2026-10-03T15:38:45.010Z] [WARN] [Commands] Failed to respond: Invalid Form Body
+message_reference[MESSAGE_REFERENCE_UNKNOWN_MESSAGE]: Unknown message
+[2026-10-03T20:10:18.485Z] [WARN] [Commands] Failed to respond: Invalid Form Body
+message_reference[MESSAGE_REFERENCE_UNKNOWN_MESSAGE]: Unknown message
+[2026-10-03T20:10:46.011Z] [WARN] [Commands] Failed to respond: Invalid Form Body
+message_reference[MESSAGE_REFERENCE_UNKNOWN_MESSAGE]: Unknown message
+[2026-10-03T20:11:11.893Z] [WARN] [Commands] Failed to respond: Invalid Form Body
+message_reference[MESSAGE_REFERENCE_UNKNOWN_MESSAGE]: Unknown message
+[2026-10-03T20:11:29.081Z] [WARN] [Commands] Failed to respond: Invalid Form Body
+message_reference[MESSAGE_REFERENCE_UNKNOWN_MESSAGE]: Unknown message
+[2026-10-03T20:11:47.809Z] [WARN] [Commands] Failed to respond: Invalid Form Body
+message_reference[MESSAGE_REFERENCE_UNKNOWN_MESSAGE]: Unknown message
+[2026-10-03T20:57:50.865Z] [WARN] [Commands] Failed to respond: Invalid Form Body
+message_reference[MESSAGE_REFERENCE_UNKNOWN_MESSAGE]: Unknown message
+[2026-10-04T20:22:51.333Z] [WARN] [Commands] Failed to respond: Invalid Form Body
+message_reference[MESSAGE_REFERENCE_UNKNOWN_MESSAGE]: Unknown message
+[2026-10-04T20:23:03.904Z] [WARN] [Commands] Failed to respond: Invalid Form Body
+message_reference[MESSAGE_REFERENCE_UNKNOWN_MESSAGE]: Unknown message
+[2026-10-04T20:23:16.535Z] [WARN] [Commands] Failed to respond: Invalid Form Body
+message_reference[MESSAGE_REFERENCE_UNKNOWN_MESSAGE]: Unknown message
+[2026-10-04T20:23:33.046Z] [WARN] [Commands] Failed to respond: Invalid Form Body
+message_reference[MESSAGE_REFERENCE_UNKNOWN_MESSAGE]: Unknown message
+[2026-10-04T20:23:42.971Z] [WARN] [Commands] Failed to respond: Invalid Form Body
+message_reference[MESSAGE_REFERENCE_UNKNOWN_MESSAGE]: Unknown message
+[2026-10-04T20:24:00.333Z] [WARN] [Commands] Failed to respond: Invalid Form Body
+message_reference[MESSAGE_REFERENCE_UNKNOWN_MESSAGE]: Unknown message
+[2026-10-04T20:24:09.332Z] [WARN] [Commands] Failed to respond: Invalid Form Body
+message_reference[MESSAGE_REFERENCE_UNKNOWN_MESSAGE]: Unknown message
+[2026-10-04T20:24:51.004Z] [WARN] [Commands] Failed to respond: Invalid Form Body
+message_reference[MESSAGE_REFERENCE_UNKNOWN_MESSAGE]: Unknown message
+[2026-10-04T20:25:06.367Z] [WARN] [Commands] Failed to respond: Invalid Form Body
+message_reference[MESSAGE_REFERENCE_UNKNOWN_MESSAGE]: Unknown message
+[2026-10-05T21:31:42.100Z] [INFO] [Startup] Node.js version: v22.23.3
+[2026-10-05T21:31:42.138Z] [INFO] [Startup] Loading configuration...
+[2026-10-05T21:31:42.139Z] [INFO] [Startup] Initializing storage...
+[2026-10-05T21:31:42.167Z] [INFO] [Startup] Loading commands...
+[2026-10-05T21:31:45.918Z] [INFO] [Commands] Loaded 15 command(s).
+[2026-10-05T21:31:46.181Z] [INFO] [Startup] Loading events...
+[2026-10-05T21:31:46.265Z] [INFO] [Events] Registered 11 event handler(s).
+[2026-10-05T21:31:46.271Z] [INFO] [Startup] Starting ticket bot...
+[2026-10-05T21:31:46.318Z] [INFO] [Tickets] Connecting Ticket Bot to Discord...
+[2026-10-05T21:31:46.328Z] [INFO] [Startup] Starting dashboard...
+[2026-10-05T21:31:46.634Z] [INFO] [Startup] Connecting to Discord...
+[2026-10-05T21:31:46.650Z] [INFO] [Dashboard] Running on port 11291
+[2026-10-05T21:31:48.118Z] [INFO] [Discord] Connected as Dziri#4124 — 1 guild(s).
+[2026-10-05T21:31:48.498Z] [ERROR] [Commands] Slash registration failed: Invalid Form Body
+6.options[1][APPLICATION_COMMAND_OPTIONS_REQUIRED_INVALID]: Required options must be placed before non-required options
+6.options[2][APPLICATION_COMMAND_OPTIONS_REQUIRED_INVALID]: Required options must be placed before non-required options
+[2026-10-05T21:31:48.529Z] [INFO] [Startup] Dziri System is ready.
+[2026-10-05T21:31:48.764Z] [INFO] [Tickets] Ticket Bot connected as tickets.#5235 — 1 guild(s).
+[2026-10-05T21:41:23.105Z] [WARN] [Commands] Failed to respond: Invalid Form Body
+message_reference[MESSAGE_REFERENCE_UNKNOWN_MESSAGE]: Unknown message
+[2026-10-05T21:54:32.892Z] [WARN] [Commands] Failed to respond: Invalid Form Body
+message_reference[MESSAGE_REFERENCE_UNKNOWN_MESSAGE]: Unknown message
+[2026-10-05T21:55:34.279Z] [WARN] [Commands] Failed to respond: Invalid Form Body
+message_reference[MESSAGE_REFERENCE_UNKNOWN_MESSAGE]: Unknown message
+[2026-10-06T20:05:04.783Z] [INFO] [Startup] Node.js version: v22.23.3
+[2026-10-06T20:05:04.810Z] [INFO] [Startup] Loading configuration...
+[2026-10-06T20:05:04.818Z] [INFO] [Startup] Initializing storage...
+[2026-10-06T20:05:04.825Z] [INFO] [Startup] Loading commands...
+[2026-10-06T20:05:08.534Z] [INFO] [Commands] Loaded 19 command(s).
+[2026-10-06T20:05:08.753Z] [INFO] [Startup] Loading events...
+[2026-10-06T20:05:08.911Z] [INFO] [Events] Registered 11 event handler(s).
+[2026-10-06T20:05:08.913Z] [INFO] [Startup] Starting ticket bot...
+[2026-10-06T20:05:08.957Z] [INFO] [Tickets] Connecting Ticket Bot to Discord...
+[2026-10-06T20:05:08.985Z] [INFO] [Startup] Starting dashboard...
+[2026-10-06T20:05:10.912Z] [INFO] [Startup] Connecting to Discord...
+[2026-10-06T20:05:10.936Z] [INFO] [Dashboard] Running on port 11291
+[2026-10-06T21:07:25.967Z] [INFO] [Startup] Node.js version: v22.23.3
+[2026-10-06T21:07:25.969Z] [INFO] [Startup] Loading configuration...
+[2026-10-06T21:07:25.970Z] [INFO] [Startup] Initializing storage...
+[2026-10-06T21:07:25.976Z] [INFO] [Startup] Loading commands...
+[2026-10-06T21:07:29.049Z] [INFO] [Commands] Loaded 19 command(s).
+[2026-10-06T21:07:29.190Z] [INFO] [Startup] Loading events...
+[2026-10-06T21:07:29.264Z] [INFO] [Events] Registered 11 event handler(s).
+[2026-10-06T21:07:29.265Z] [INFO] [Startup] Starting ticket bot...
+[2026-10-06T21:07:29.283Z] [INFO] [Tickets] Connecting Ticket Bot to Discord...
+[2026-10-06T21:07:29.311Z] [INFO] [Startup] Starting dashboard...
+[2026-10-06T21:07:29.968Z] [INFO] [Startup] Connecting to Discord...
+[2026-10-06T21:07:30.058Z] [INFO] [Dashboard] Running on port 10800
+[2026-10-06T21:07:31.528Z] [INFO] [Discord] Connected as Dziri#4124 — 1 guild(s).
+[2026-10-06T21:07:31.677Z] [INFO] [Tickets] Ticket Bot connected as tickets.#5235 — 1 guild(s).
+[2026-10-06T21:07:31.838Z] [ERROR] [Commands] Slash registration failed: Invalid Form Body
+7.options[1][APPLICATION_COMMAND_OPTIONS_REQUIRED_INVALID]: Required options must be placed before non-required options
+7.options[2][APPLICATION_COMMAND_OPTIONS_REQUIRED_INVALID]: Required options must be placed before non-required options
+[2026-10-06T21:07:31.880Z] [INFO] [Startup] Dziri System is ready.
+[2026-10-06T21:08:01.644Z] [ERROR] [API] GET /api/guilds/1033141890654163056/autorole: autoRoleService.status is not a function
+[2026-10-06T21:08:18.778Z] [ERROR] [API] GET /api/guilds/1033141890654163056/autorole: autoRoleService.status is not a function
+[2026-10-06T21:08:47.392Z] [ERROR] [API] GET /api/guilds/1033141890654163056/autorole: autoRoleService.status is not a function
+[2026-10-06T21:08:52.663Z] [ERROR] [API] GET /api/guilds/1033141890654163056/autorole: autoRoleService.status is not a function
+[2026-10-06T21:10:58.687Z] [ERROR] [API] GET /api/guilds/1033141890654163056/autorole: autoRoleService.status is not a function
+[2026-10-06T21:18:44.510Z] [ERROR] [API] GET /api/guilds/1033141890654163056/autorole: autoRoleService.status is not a function
+[2026-10-06T21:23:57.525Z] [INFO] [Startup] Node.js version: v22.23.3
+[2026-10-06T21:23:57.867Z] [INFO] [Startup] Loading configuration...
+[2026-10-06T21:23:57.883Z] [INFO] [Startup] Initializing storage...
+[2026-10-06T21:23:57.899Z] [INFO] [Startup] Loading commands...
+[2026-10-06T21:24:00.624Z] [INFO] [Commands] Loaded 19 command(s).
+[2026-10-06T21:24:00.866Z] [INFO] [Startup] Loading events...
+[2026-10-06T21:24:00.885Z] [INFO] [Events] Registered 11 event handler(s).
+[2026-10-06T21:24:00.886Z] [INFO] [Startup] Starting ticket bot...
+[2026-10-06T21:24:00.892Z] [INFO] [Tickets] Connecting Ticket Bot to Discord...
+[2026-10-06T21:24:00.903Z] [INFO] [Startup] Starting dashboard...
+[2026-10-06T21:24:01.519Z] [INFO] [Startup] Connecting to Discord...
+[2026-10-06T21:24:01.539Z] [INFO] [Dashboard] Running on port 10800
+[2026-10-06T21:24:02.949Z] [INFO] [Tickets] Ticket Bot connected as tickets.#5235 — 1 guild(s).
+[2026-10-06T21:24:03.052Z] [INFO] [Discord] Connected as Dziri#4124 — 1 guild(s).
+[2026-10-06T21:24:03.381Z] [ERROR] [Commands] Slash registration failed: Invalid Form Body
+7.options[1][APPLICATION_COMMAND_OPTIONS_REQUIRED_INVALID]: Required options must be placed before non-required options
+7.options[2][APPLICATION_COMMAND_OPTIONS_REQUIRED_INVALID]: Required options must be placed before non-required options
+[2026-10-06T21:24:03.978Z] [INFO] [Startup] Dziri System is ready.
+[2026-10-06T21:31:25.101Z] [WARN] [Commands] Failed to respond: Invalid Form Body
+message_reference[MESSAGE_REFERENCE_UNKNOWN_MESSAGE]: Unknown message
+[2026-10-06T21:34:07.901Z] [WARN] [Commands] Failed to respond: Invalid Form Body
+message_reference[MESSAGE_REFERENCE_UNKNOWN_MESSAGE]: Unknown message
+[2026-10-06T21:39:11.753Z] [WARN] [Commands] Failed to respond: Invalid Form Body
+message_reference[MESSAGE_REFERENCE_UNKNOWN_MESSAGE]: Unknown message
+[2026-10-06T21:44:50.416Z] [WARN] [Commands] Failed to respond: Invalid Form Body
+message_reference[MESSAGE_REFERENCE_UNKNOWN_MESSAGE]: Unknown message
+[2026-10-07T07:02:45.514Z] [WARN] [Commands] Failed to respond: Invalid Form Body
+message_reference[MESSAGE_REFERENCE_UNKNOWN_MESSAGE]: Unknown message
+[2026-10-08T18:51:42.158Z] [INFO] [Startup] Node.js version: v22.23.3
+[2026-10-08T18:51:42.193Z] [INFO] [Startup] Loading configuration...
+[2026-10-08T18:51:42.194Z] [INFO] [Startup] Initializing storage...
+[2026-10-08T18:51:42.213Z] [INFO] [Startup] Loading commands...
+[2026-10-08T18:51:45.327Z] [INFO] [Commands] Loaded 19 command(s).
+[2026-10-08T18:51:45.498Z] [INFO] [Startup] Loading events...
+[2026-10-08T18:51:45.532Z] [INFO] [Events] Registered 11 event handler(s).
+[2026-10-08T18:51:45.532Z] [INFO] [Startup] Starting ticket bot...
+[2026-10-08T18:51:45.541Z] [INFO] [Tickets] Connecting Ticket Bot to Discord...
+[2026-10-08T18:51:45.548Z] [INFO] [Startup] Starting dashboard...
+[2026-10-08T18:51:46.121Z] [INFO] [Startup] Connecting to Discord...
+[2026-10-08T18:51:46.147Z] [INFO] [Dashboard] Running on port 10800
+[2026-10-08T18:51:47.647Z] [INFO] [Discord] Connected as Dziri#4124 — 1 guild(s).
+[2026-10-08T18:51:47.713Z] [INFO] [Tickets] Ticket Bot connected as tickets.#5235 — 1 guild(s).
+[2026-10-08T18:51:47.972Z] [ERROR] [Commands] Slash registration failed: Invalid Form Body
+7.options[1][APPLICATION_COMMAND_OPTIONS_REQUIRED_INVALID]: Required options must be placed before non-required options
+7.options[2][APPLICATION_COMMAND_OPTIONS_REQUIRED_INVALID]: Required options must be placed before non-required options
+[2026-10-08T18:51:48.038Z] [INFO] [Startup] Dziri System is ready.
+[2026-10-08T19:05:46.709Z] [INFO] [MessageCleanup] Dziri publicVoice: 206 deleted, 0 failed in 30 channel(s) (manual).
+[2026-10-08T19:31:22.266Z] [ERROR] [API] POST /api/guilds/1033141890654163056/broadcast/preview: Request with opcode 8 was rate limited. Retry after 7.815 seconds.
+[2026-10-08T20:00:43.947Z] [ERROR] [API] POST /api/guilds/1033141890654163056/broadcast/preview: Request with opcode 8 was rate limited. Retry after 14.135 seconds.
+[2026-10-08T20:00:48.369Z] [ERROR] [API] POST /api/guilds/1033141890654163056/broadcast/preview: Request with opcode 8 was rate limited. Retry after 9.748 seconds.
+[2026-10-08T20:43:00.179Z] [ERROR] [API] POST /api/guilds/1033141890654163056/broadcast/preview: Request with opcode 8 was rate limited. Retry after 13.917 seconds.
+[2026-10-08T21:04:17.362Z] [INFO] [AutoRole] Dziri: assigned dziri. to dziritestor.
+[2026-10-09T02:22:40.950Z] [INFO] [Startup] Node.js version: v22.23.3
+[2026-10-09T02:22:40.967Z] [INFO] [Startup] Loading configuration...
+[2026-10-09T02:22:40.968Z] [INFO] [Startup] Initializing storage...
+[2026-10-09T02:22:41.011Z] [INFO] [Startup] Loading commands...
+[2026-10-09T02:23:14.290Z] [INFO] [Commands] Loaded 19 command(s).
+[2026-10-09T02:23:18.256Z] [INFO] [Startup] Loading events...
+[2026-10-09T02:23:18.511Z] [INFO] [Events] Registered 11 event handler(s).
+[2026-10-09T02:23:18.512Z] [INFO] [Startup] Starting ticket bot...
+[2026-10-09T02:23:18.554Z] [INFO] [Tickets] Connecting Ticket Bot to Discord...
+[2026-10-09T02:23:18.639Z] [INFO] [Startup] Starting dashboard...
+[2026-10-09T02:23:34.464Z] [INFO] [Startup] Connecting to Discord...
+[2026-10-09T02:23:34.504Z] [INFO] [Dashboard] Running on port 10800
+[2026-10-09T02:23:36.320Z] [INFO] [Discord] Connected as Dziri#4124 — 1 guild(s).
+[2026-10-09T02:23:36.429Z] [INFO] [Tickets] Ticket Bot connected as tickets.#5235 — 1 guild(s).
+[2026-10-09T02:23:36.743Z] [ERROR] [Commands] Slash registration failed: Invalid Form Body
+7.options[1][APPLICATION_COMMAND_OPTIONS_REQUIRED_INVALID]: Required options must be placed before non-required options
+7.options[2][APPLICATION_COMMAND_OPTIONS_REQUIRED_INVALID]: Required options must be placed before non-required options
+[2026-10-09T02:23:36.930Z] [INFO] [Startup] Dziri System is ready.
+[2026-10-09T12:48:52.669Z] [INFO] [Startup] Node.js version: v22.23.3
+[2026-10-09T12:48:52.800Z] [INFO] [Startup] Loading configuration...
+[2026-10-09T12:48:52.802Z] [INFO] [Startup] Initializing storage...
+[2026-10-09T12:48:52.851Z] [INFO] [Startup] Loading commands...
+[2026-10-09T12:49:45.379Z] [INFO] [Commands] Loaded 19 command(s).
+[2026-10-09T12:49:52.745Z] [INFO] [Startup] Loading events...
+[2026-10-09T12:49:54.635Z] [INFO] [Events] Registered 11 event handler(s).
+[2026-10-09T12:49:54.636Z] [INFO] [Startup] Starting ticket bot...
+[2026-10-09T12:49:54.720Z] [INFO] [Tickets] Connecting Ticket Bot to Discord...
+[2026-10-09T12:49:54.762Z] [INFO] [Startup] Starting dashboard...
+[2026-10-09T12:50:09.802Z] [INFO] [Startup] Connecting to Discord...
+[2026-10-09T12:50:09.822Z] [INFO] [Dashboard] Running on port 10800
+[2026-10-09T12:50:13.438Z] [INFO] [Tickets] Ticket Bot connected as tickets.#5235 — 1 guild(s).
+[2026-10-09T12:50:13.702Z] [INFO] [Discord] Connected as Dziri#4124 — 1 guild(s).
+[2026-10-09T12:50:14.605Z] [ERROR] [Commands] Slash registration failed: Invalid Form Body
+7.options[1][APPLICATION_COMMAND_OPTIONS_REQUIRED_INVALID]: Required options must be placed before non-required options
+7.options[2][APPLICATION_COMMAND_OPTIONS_REQUIRED_INVALID]: Required options must be placed before non-required options
+[2026-10-09T12:50:15.404Z] [INFO] [Startup] Dziri System is ready.
+[2026-10-09T12:53:15.078Z] [ERROR] [API] POST /api/guilds/1033141890654163056/broadcast/preview: Request with opcode 8 was rate limited. Retry after 18.028 seconds.
+[2026-10-09T12:53:26.279Z] [ERROR] [API] POST /api/guilds/1033141890654163056/broadcast/preview: Request with opcode 8 was rate limited. Retry after 6.825 seconds.
+[2026-10-09T14:03:31.848Z] [INFO] [Startup] Node.js version: v22.23.3
+[2026-10-09T14:03:31.894Z] [INFO] [Startup] Loading configuration...
+[2026-10-09T14:03:31.908Z] [INFO] [Startup] Initializing storage...
+[2026-10-09T14:03:32.335Z] [INFO] [Startup] Loading commands...
+[2026-10-09T14:04:13.587Z] [INFO] [Commands] Loaded 19 command(s).
+[2026-10-09T14:04:17.896Z] [INFO] [Startup] Loading events...
+[2026-10-09T14:04:19.606Z] [INFO] [Events] Registered 11 event handler(s).
+[2026-10-09T14:04:19.606Z] [INFO] [Startup] Starting ticket bot...
+[2026-10-09T14:04:19.835Z] [INFO] [Tickets] Connecting Ticket Bot to Discord...
+[2026-10-09T14:04:19.902Z] [INFO] [Startup] Starting dashboard...
+[2026-10-09T14:04:43.155Z] [INFO] [Startup] Connecting to Discord...
+[2026-10-09T14:04:43.193Z] [INFO] [Dashboard] Running on port 10800
+[2026-10-09T14:04:47.916Z] [INFO] [Tickets] Ticket Bot connected as tickets.#5235 — 1 guild(s).
+[2026-10-09T14:04:48.344Z] [INFO] [Discord] Connected as Dziri#4124 — 1 guild(s).
+[2026-10-09T14:04:48.717Z] [ERROR] [Commands] Slash registration failed: Invalid Form Body
+7.options[1][APPLICATION_COMMAND_OPTIONS_REQUIRED_INVALID]: Required options must be placed before non-required options
+7.options[2][APPLICATION_COMMAND_OPTIONS_REQUIRED_INVALID]: Required options must be placed before non-required options
+[2026-10-09T14:04:49.066Z] [INFO] [Startup] Dziri System is ready.
+[2026-10-09T18:51:52.898Z] [INFO] [MessageCleanup] Dziri temporaryRooms: 0 deleted, 0 failed in 0 channel(s).
+[2026-10-09T19:06:06.145Z] [INFO] [MessageCleanup] Dziri publicVoice: 14 deleted, 0 failed in 30 channel(s).
+[2026-10-09T20:59:55.878Z] [INFO] [AutoRole] Dziri: assigned dziri. to ibrattv..
+[2026-10-10T18:52:17.324Z] [INFO] [MessageCleanup] Dziri temporaryRooms: 0 deleted, 0 failed in 0 channel(s).
+[2026-10-10T19:06:27.193Z] [INFO] [MessageCleanup] Dziri publicVoice: 11 deleted, 0 failed in 30 channel(s).
+[2026-10-10T21:07:07.979Z] [INFO] [Process] SIGINT received — saving data...
+[2026-10-11T13:05:48.049Z] [INFO] [Startup] Node.js version: v22.23.3
+[2026-10-11T13:05:48.051Z] [INFO] [Startup] Loading configuration...
+[2026-10-11T13:05:48.051Z] [INFO] [Startup] Initializing storage...
+[2026-10-11T13:05:48.250Z] [INFO] [Startup] Loading commands...
+[2026-10-11T13:06:46.243Z] [INFO] [Commands] Loaded 19 command(s).
+[2026-10-11T13:06:47.393Z] [INFO] [Startup] Loading events...
+[2026-10-11T13:06:47.895Z] [INFO] [Events] Registered 11 event handler(s).
+[2026-10-11T13:06:47.898Z] [INFO] [Startup] Starting ticket bot...
+[2026-10-11T13:06:47.914Z] [INFO] [Tickets] Connecting Ticket Bot to Discord...
+[2026-10-11T13:06:47.936Z] [INFO] [Startup] Starting dashboard...
+[2026-10-11T13:06:54.780Z] [INFO] [Startup] Connecting to Discord...
+[2026-10-11T13:06:54.811Z] [INFO] [Dashboard] Running on port 10800
+[2026-10-11T13:06:56.015Z] [INFO] [Tickets] Ticket Bot connected as tickets.#5235 — 1 guild(s).
+[2026-10-11T13:06:56.084Z] [INFO] [Discord] Connected as Dziri#4124 — 1 guild(s).
+[2026-10-11T13:06:56.519Z] [ERROR] [Commands] Slash registration failed: Invalid Form Body
+7.options[1][APPLICATION_COMMAND_OPTIONS_REQUIRED_INVALID]: Required options must be placed before non-required options
+7.options[2][APPLICATION_COMMAND_OPTIONS_REQUIRED_INVALID]: Required options must be placed before non-required options
+[2026-10-11T13:06:56.610Z] [INFO] [Startup] Dziri System is ready.
+[2026-10-11T18:53:01.281Z] [INFO] [MessageCleanup] Dziri temporaryRooms: 0 deleted, 0 failed in 0 channel(s).
+[2026-10-11T19:07:13.082Z] [INFO] [MessageCleanup] Dziri publicVoice: 1 deleted, 0 failed in 30 channel(s).
+[2026-10-12T18:53:22.225Z] [INFO] [MessageCleanup] Dziri temporaryRooms: 0 deleted, 0 failed in 0 channel(s).
+[2026-10-12T19:08:22.356Z] [WARN] [MessageCleanup] Dziri publicVoice: A cleanup job is already running for this channel type.
+[2026-10-12T19:10:18.178Z] [INFO] [MessageCleanup] Dziri publicVoice: 0 deleted, 0 failed in 30 channel(s).
+[2026-10-12T21:02:26.659Z] [INFO] [MessageCleanup] Dziri publicVoice: 6 deleted, 0 failed in 30 channel(s) (manual).
+[2026-10-12T23:21:14.154Z] [INFO] [AutoRole] Dziri: assigned dziri. to assala1828.
+[2026-10-13T18:53:39.418Z] [INFO] [MessageCleanup] Dziri temporaryRooms: 0 deleted, 0 failed in 0 channel(s).
+[2026-10-13T21:02:50.298Z] [INFO] [MessageCleanup] Dziri publicVoice: 0 deleted, 0 failed in 30 channel(s).
+[2026-10-14T17:36:25.416Z] [INFO] [AutoRole] Dziri: assigned dziri. to siradj2357.
+[2026-10-14T18:53:56.855Z] [INFO] [MessageCleanup] Dziri temporaryRooms: 0 deleted, 0 failed in 0 channel(s).
+[2026-10-14T21:03:09.269Z] [INFO] [MessageCleanup] Dziri publicVoice: 1 deleted, 0 failed in 30 channel(s).
+[2026-10-15T18:54:12.350Z] [INFO] [MessageCleanup] Dziri temporaryRooms: 0 deleted, 0 failed in 0 channel(s).
+[2026-10-15T21:03:24.135Z] [INFO] [MessageCleanup] Dziri publicVoice: 0 deleted, 0 failed in 30 channel(s).
+[2026-10-15T22:12:10.806Z] [INFO] [AutoRole] Dziri: assigned dziri. to lady.roul.
+[2026-10-16T11:07:31.088Z] [WARN] [Commands] Failed to respond: Invalid Form Body
+message_reference[MESSAGE_REFERENCE_UNKNOWN_MESSAGE]: Unknown message
+[2026-10-16T15:48:10.049Z] [INFO] [MessageCleanup] Dziri publicVoice: 36 deleted, 0 failed in 30 channel(s) (manual).
+[2026-10-16T18:54:26.527Z] [INFO] [MessageCleanup] Dziri temporaryRooms: 0 deleted, 0 failed in 0 channel(s).
+[2026-10-17T15:48:51.300Z] [INFO] [MessageCleanup] Dziri publicVoice: 6 deleted, 0 failed in 30 channel(s).
+[2026-10-17T18:54:40.422Z] [INFO] [MessageCleanup] Dziri temporaryRooms: 0 deleted, 0 failed in 0 channel(s).
+[2026-10-18T15:49:11.580Z] [INFO] [MessageCleanup] Dziri publicVoice: 0 deleted, 0 failed in 30 channel(s).
+[2026-10-18T18:54:59.493Z] [INFO] [MessageCleanup] Dziri temporaryRooms: 0 deleted, 0 failed in 0 channel(s).
+[2026-10-19T15:49:23.796Z] [INFO] [MessageCleanup] Dziri publicVoice: 58 deleted, 0 failed in 30 channel(s).
+[2026-10-19T18:55:14.334Z] [INFO] [MessageCleanup] Dziri temporaryRooms: 0 deleted, 0 failed in 0 channel(s).
+[2026-10-20T15:50:34.806Z] [INFO] [MessageCleanup] Dziri publicVoice: 0 deleted, 0 failed in 30 channel(s).
+[2026-10-20T18:55:24.768Z] [INFO] [MessageCleanup] Dziri temporaryRooms: 0 deleted, 0 failed in 0 channel(s).
+[2026-10-21T15:50:53.009Z] [INFO] [MessageCleanup] Dziri publicVoice: 0 deleted, 0 failed in 30 channel(s).
+[2026-10-21T16:47:45.833Z] [INFO] [AutoRole] Dziri: assigned dziri. to alada213.
+[2026-10-21T18:55:43.027Z] [INFO] [MessageCleanup] Dziri temporaryRooms: 0 deleted, 0 failed in 0 channel(s).
+[2026-10-22T15:51:10.120Z] [INFO] [MessageCleanup] Dziri publicVoice: 0 deleted, 0 failed in 30 channel(s).
+[2026-10-22T18:56:01.875Z] [INFO] [MessageCleanup] Dziri temporaryRooms: 0 deleted, 0 failed in 0 channel(s).
+[2026-10-23T15:51:27.599Z] [INFO] [MessageCleanup] Dziri publicVoice: 0 deleted, 0 failed in 30 channel(s).
+[2026-10-23T18:56:19.551Z] [INFO] [MessageCleanup] Dziri temporaryRooms: 0 deleted, 0 failed in 0 channel(s).
+[2026-10-23T23:46:37.020Z] [INFO] [AutoRole] Dziri: assigned dziri. to _babyyydoll.
+[2026-10-24T15:51:42.326Z] [INFO] [MessageCleanup] Dziri publicVoice: 0 deleted, 0 failed in 30 channel(s).
+[2026-10-24T18:56:33.896Z] [INFO] [MessageCleanup] Dziri temporaryRooms: 0 deleted, 0 failed in 0 channel(s).
+[2026-10-24T21:29:58.471Z] [INFO] [AutoRole] Dziri: assigned dziri. to finnhopkinsxgfm0je4.
+[2026-10-24T21:30:02.592Z] [INFO] [AutoRole] Dziri: assigned dziri. to forestlanekhjdna1u.
+[2026-10-25T15:51:57.533Z] [INFO] [MessageCleanup] Dziri publicVoice: 0 deleted, 0 failed in 30 channel(s).
+[2026-10-25T18:56:44.537Z] [INFO] [MessageCleanup] Dziri temporaryRooms: 0 deleted, 0 failed in 0 channel(s).
+[2026-10-25T23:20:33.506Z] [WARN] [Commands] Failed to respond: Invalid Form Body
+message_reference[MESSAGE_REFERENCE_UNKNOWN_MESSAGE]: Unknown message
+[2026-10-26T15:52:09.217Z] [INFO] [MessageCleanup] Dziri publicVoice: 0 deleted, 0 failed in 30 channel(s).
+[2026-10-26T18:57:00.347Z] [INFO] [MessageCleanup] Dziri temporaryRooms: 0 deleted, 0 failed in 0 channel(s).
+[2026-10-26T20:46:51.688Z] [INFO] [AutoRole] Dziri: assigned dziri. to q9k4h3008u.
+[2026-10-26T20:47:23.319Z] [INFO] [AutoRole] Dziri: assigned dziri. to ag07r9gk2_42684.
+[2026-10-26T20:47:24.035Z] [INFO] [AutoRole] Dziri: assigned dziri. to g0tv338j8fv.
+[2026-10-26T20:47:24.362Z] [INFO] [AutoRole] Dziri: assigned dziri. to t2swpephb59ld_19176.
+[2026-10-26T20:47:24.845Z] [INFO] [AutoRole] Dziri: assigned dziri. to s0hw7ftr.
+[2026-10-26T20:47:26.179Z] [INFO] [AutoRole] Dziri: assigned dziri. to 0w8git1ca0r.
+[2026-10-26T20:47:26.859Z] [INFO] [AutoRole] Dziri: assigned dziri. to ko7u3hmulser.
+[2026-10-26T20:47:34.246Z] [INFO] [AutoRole] Dziri: assigned dziri. to q90zzze0q_49464.
+[2026-10-26T20:47:36.203Z] [INFO] [AutoRole] Dziri: assigned dziri. to wg2jkd3vc.
+[2026-10-27T13:19:52.381Z] [ERROR] [Process] Uncaught exception: Error: Opening handshake has timed out
+    at ClientRequest.<anonymous> (/home/container/node_modules/ws/lib/websocket.js:904:7)
+    at ClientRequest.emit (node:events:519:28)
+    at TLSSocket.emitRequestTimeout (node:_http_client:931:9)
+    at Object.onceWrapper (node:events:633:28)
+    at TLSSocket.emit (node:events:519:28)
+    at Socket._onTimeout (node:net:605:8)
+    at listOnTimeout (node:internal/timers:585:17)
+    at process.processTimers (node:internal/timers:521:7)
+[2026-10-27T13:26:14.986Z] [ERROR] [Process] Uncaught exception: Error: Opening handshake has timed out
+    at ClientRequest.<anonymous> (/home/container/node_modules/ws/lib/websocket.js:904:7)
+    at ClientRequest.emit (node:events:519:28)
+    at TLSSocket.emitRequestTimeout (node:_http_client:931:9)
+    at Object.onceWrapper (node:events:633:28)
+    at TLSSocket.emit (node:events:519:28)
+    at Socket._onTimeout (node:net:605:8)
+    at listOnTimeout (node:internal/timers:585:17)
+    at process.processTimers (node:internal/timers:521:7)
+[2026-10-27T13:26:31.110Z] [ERROR] [Process] Uncaught exception: Error: Opening handshake has timed out
+    at ClientRequest.<anonymous> (/home/container/node_modules/ws/lib/websocket.js:904:7)
+    at ClientRequest.emit (node:events:519:28)
+    at TLSSocket.emitRequestTimeout (node:_http_client:931:9)
+    at Object.onceWrapper (node:events:633:28)
+    at TLSSocket.emit (node:events:519:28)
+    at Socket._onTimeout (node:net:605:8)
+    at listOnTimeout (node:internal/timers:585:17)
+    at process.processTimers (node:internal/timers:521:7)
+[2026-10-27T13:27:53.160Z] [ERROR] [Process] Uncaught exception: Error: Opening handshake has timed out
+    at ClientRequest.<anonymous> (/home/container/node_modules/ws/lib/websocket.js:904:7)
+    at ClientRequest.emit (node:events:519:28)
+    at TLSSocket.emitRequestTimeout (node:_http_client:931:9)
+    at Object.onceWrapper (node:events:633:28)
+    at TLSSocket.emit (node:events:519:28)
+    at Socket._onTimeout (node:net:605:8)
+    at listOnTimeout (node:internal/timers:585:17)
+    at process.processTimers (node:internal/timers:521:7)
+[2026-10-27T13:29:41.340Z] [ERROR] [Process] Uncaught exception: Error: Opening handshake has timed out
+    at ClientRequest.<anonymous> (/home/container/node_modules/ws/lib/websocket.js:904:7)
+    at ClientRequest.emit (node:events:519:28)
+    at TLSSocket.emitRequestTimeout (node:_http_client:931:9)
+    at Object.onceWrapper (node:events:633:28)
+    at TLSSocket.emit (node:events:519:28)
+    at Socket._onTimeout (node:net:605:8)
+    at listOnTimeout (node:internal/timers:585:17)
+    at process.processTimers (node:internal/timers:521:7)
+[2026-10-27T13:36:13.053Z] [ERROR] [Process] Uncaught exception: Error: Opening handshake has timed out
+    at ClientRequest.<anonymous> (/home/container/node_modules/ws/lib/websocket.js:904:7)
+    at ClientRequest.emit (node:events:519:28)
+    at TLSSocket.emitRequestTimeout (node:_http_client:931:9)
+    at Object.onceWrapper (node:events:633:28)
+    at TLSSocket.emit (node:events:519:28)
+    at Socket._onTimeout (node:net:605:8)
+    at listOnTimeout (node:internal/timers:585:17)
+    at process.processTimers (node:internal/timers:521:7)
+[2026-10-27T15:52:22.821Z] [INFO] [MessageCleanup] Dziri publicVoice: 4 deleted, 0 failed in 30 channel(s).
+[2026-10-27T18:57:13.540Z] [INFO] [MessageCleanup] Dziri temporaryRooms: 0 deleted, 0 failed in 0 channel(s).
+[2026-10-27T20:53:13.336Z] [INFO] [AutoRole] Dziri: assigned dziri. to jf867zrbf.
+[2026-10-27T20:53:13.683Z] [INFO] [AutoRole] Dziri: assigned dziri. to vhpuxefxl0c_77713.
+[2026-10-27T20:53:16.113Z] [INFO] [AutoRole] Dziri: assigned dziri. to ajr2hzjmrr5.
+[2026-10-27T20:53:16.598Z] [INFO] [AutoRole] Dziri: assigned dziri. to bv7cupbdcbj_54184.
+[2026-10-27T20:53:20.304Z] [INFO] [AutoRole] Dziri: assigned dziri. to qqz7bbduu70w.
+[2026-10-27T20:53:27.273Z] [INFO] [AutoRole] Dziri: assigned dziri. to bdhkojuj5q.
+[2026-10-27T20:53:31.003Z] [INFO] [AutoRole] Dziri: assigned dziri. to 12soik3uytxp.
+[2026-10-28T01:12:17.696Z] [ERROR] [Process] Uncaught exception: Error: Opening handshake has timed out
+    at ClientRequest.<anonymous> (/home/container/node_modules/ws/lib/websocket.js:904:7)
+    at ClientRequest.emit (node:events:519:28)
+    at TLSSocket.emitRequestTimeout (node:_http_client:931:9)
+    at Object.onceWrapper (node:events:633:28)
+    at TLSSocket.emit (node:events:519:28)
+    at Socket._onTimeout (node:net:605:8)
+    at listOnTimeout (node:internal/timers:585:17)
+    at process.processTimers (node:internal/timers:521:7)
+[2026-10-28T15:52:33.488Z] [INFO] [MessageCleanup] Dziri publicVoice: 14 deleted, 0 failed in 30 channel(s).
+[2026-10-28T18:57:24.686Z] [INFO] [MessageCleanup] Dziri temporaryRooms: 0 deleted, 0 failed in 0 channel(s).
+[2026-10-28T20:57:16.543Z] [INFO] [MessageCleanup] Dziri publicVoice: 8 deleted, 0 failed in 35 channel(s) (manual).
+[2026-10-28T21:08:01.184Z] [WARN] [Commands] Failed to respond: Invalid Form Body
+message_reference[MESSAGE_REFERENCE_UNKNOWN_MESSAGE]: Unknown message
+[2026-10-28T21:08:23.764Z] [WARN] [Commands] Failed to respond: Invalid Form Body
+message_reference[MESSAGE_REFERENCE_UNKNOWN_MESSAGE]: Unknown message
+[2026-10-28T21:16:33.404Z] [WARN] [Commands] Failed to respond: Invalid Form Body
+message_reference[MESSAGE_REFERENCE_UNKNOWN_MESSAGE]: Unknown message
+[2026-10-29T10:25:50.548Z] [INFO] [AutoRole] Dziri: assigned dziri. to mohgtn.
+[2026-10-29T18:57:38.346Z] [INFO] [MessageCleanup] Dziri temporaryRooms: 0 deleted, 0 failed in 0 channel(s).
+[2026-10-29T20:57:55.119Z] [INFO] [MessageCleanup] Dziri publicVoice: 6 deleted, 0 failed in 35 channel(s).

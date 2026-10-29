@@ -1,0 +1,57 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Dziri System — Login</title>
+  <link rel="stylesheet" href="/assets/app.css" />
+  <style>
+    .wrap { min-height: 100vh; display: grid; place-items: center; position: relative; z-index: 1; padding: 20px; }
+    .login { width: min(420px, 100%); text-align: center; padding: 34px; }
+    .login .brand-logo { width: 64px; height: 64px; font-size: 26px; border-radius: 20px; margin: 0 auto 16px; }
+    .login h1 { margin: 0 0 6px; font-size: 26px; }
+    .login p { color: var(--muted); margin: 0 0 24px; }
+    .discord { background: linear-gradient(135deg, #5865f2, #7c3aed); width: 100%; padding: 12px; }
+    .or { color: var(--faint); font-size: 12px; margin: 18px 0; text-transform: uppercase; letter-spacing: .14em; }
+  </style>
+</head>
+<body>
+  <div class="ambient"><span></span><span></span><span></span></div>
+  <div class="wrap">
+    <div class="card login enter">
+      <div class="brand-logo">DZ</div>
+      <h1>Dziri System</h1>
+      <p>Sign in to manage your servers.</p>
+      <div id="err" class="banner" style="display:none;margin-bottom:16px"></div>
+      <div id="methods"><div class="loading-block"><div class="spinner"></div>Loading…</div></div>
+    </div>
+  </div>
+  <script>
+    (async function () {
+      const q = new URLSearchParams(location.search);
+      const errs = { state: 'Login expired, please try again.', token: 'Discord rejected the login. Check CLIENT_SECRET and the redirect URL.', oauth: 'Discord login failed.', user: 'Could not read your Discord profile.', oauth_disabled: 'Discord login is not configured.' };
+      if (q.get('error')) { const e = document.getElementById('err'); e.textContent = errs[q.get('error')] || 'Login failed.'; e.style.display = 'block'; }
+      const next = q.get('next') && q.get('next').startsWith('/dashboard') ? q.get('next') : '/dashboard';
+      const box = document.getElementById('methods');
+      let m = { oauth: false, password: false };
+      try { m = await (await fetch('/api/auth/methods')).json(); } catch (e) {}
+      box.innerHTML = '';
+      if (m.oauth) { const a = document.createElement('a'); a.className = 'btn primary discord'; a.href = '/auth/discord'; a.textContent = 'Login with Discord'; box.appendChild(a); }
+      if (m.oauth && m.password) { const d = document.createElement('div'); d.className = 'or'; d.textContent = 'or'; box.appendChild(d); }
+      if (m.password) {
+        const f = document.createElement('form'); f.className = 'stack'; f.style.gap = '10px';
+        f.innerHTML = '<input class="input" type="password" placeholder="Owner password" autocomplete="current-password" required><button class="btn primary" type="submit">Sign in</button>';
+        f.onsubmit = async (ev) => {
+          ev.preventDefault();
+          const btn = f.querySelector('button'); btn.disabled = true; btn.textContent = 'Signing in…';
+          const r = await fetch('/auth/password', { method: 'POST', headers: { 'Content-Type': 'application/json' }, body: JSON.stringify({ password: f.querySelector('input').value }) });
+          if (r.ok) location.href = next;
+          else { const j = await r.json().catch(() => ({})); const e = document.getElementById('err'); e.textContent = j.error || 'Login failed.'; e.style.display = 'block'; btn.disabled = false; btn.textContent = 'Sign in'; }
+        };
+        box.appendChild(f);
+      }
+      if (!m.oauth && !m.password) box.innerHTML = '<div class="banner">No login method configured. Set <b>CLIENT_ID</b> + <b>CLIENT_SECRET</b> or <b>DASHBOARD_PASSWORD</b> in .env and restart the bot.</div>';
+    })();
+  </script>
+</body>
+</html>

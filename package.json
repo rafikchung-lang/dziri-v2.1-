@@ -1,0 +1,21 @@
+{
+  "name": "dziri-system",
+  "version": "1.0.0",
+  "description": "Dziri System \u2014 Discord moderation & server-management bot with a dark-purple liquid-glass dashboard.",
+  "main": "index.js",
+  "private": true,
+  "license": "UNLICENSED",
+  "engines": {
+    "node": ">=20.0.0"
+  },
+  "scripts": {
+    "start": "node index.js",
+    "test": "node tests/dispatcher.test.js && node tests/systems.test.js && node tests/panels.test.js"
+  },
+  "dependencies": {
+    "@napi-rs/canvas": "1.0.9",
+    "discord.js": "14.27.0",
+    "dotenv": "18.0.5",
+    "express": "4.22.3"
+  }
+}
